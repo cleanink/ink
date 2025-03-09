@@ -1,0 +1,493 @@
+/* GLOBAL -------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  background-color: #F2F3EB;
+  color: #474544;
+}
+
+/* NAVBAR -------------------------------------------------------------- */
+.navbar {
+  background-color: #474544;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #F2F3EB;
+}
+
+.navbar-dark .navbar-toggler {
+  border: 2px solid #F2F3EB;
+}
+
+/* FOOTER ----------------------------------------------------------------- */
+#footer {
+  text-align: center;
+  background-color: #474544;
+  color: #F2F3EB;
+  padding: 20px;
+}
+
+.footer {
+  margin-top: 10px;
+  /* margin-top: 30vh; */
+}
+
+.footer-p-1 {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  color: #F2F3EB;
+}
+
+.footer-p-2 {
+  margin-bottom: 0px;
+  color: #F2F3EB;
+}
+
+.footer-p-3 {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  color: #F2F3EB;
+}
+
+.ftr-p {
+  color: #F2F3EB;
+}
+
+.ftr-p:hover {
+  color: #F2F3EB;
+}
+
+.fa-facebook-square:before {
+  color: #F2F3EB;
+  font-size: 55px;
+  padding-right: 10px;
+}
+
+.fa-twitter-square:before {
+  color: #ffffff;
+  font-size: 55px;
+  padding-right: 10px;
+}
+
+.fa-instagram-square:before {
+  color: #F2F3EB;
+  font-size: 55px;
+  padding-right: 10px;
+}
+
+.fa-linkedin:before {
+  color: #F2F3EB;
+  font-size: 55px;
+  padding-right: 10px;
+}
+/* HOME PAGE --------------------------------------------------------------- */
+.carousel-item {
+  max-height: 83vh;
+}
+
+.testimonials-h1 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.testimonials-p {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0px;
+  padding-top: 13px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.testimonials-name {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-style: italic;
+}
+
+.carousel-control-prev-icon {
+  background-color: #474544;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.carousel-control-next-icon {
+  background-color: #474544;
+  margin-left: 10px;
+  height: 50px;
+}
+
+/*COOKIES*/
+#cookieConsentPopup {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #F2F3EB;
+  padding: 20px;
+  z-index: 1000;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #474544;
+  text-align: center;
+}
+
+#cookieConsentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cookieConsentContainer p {
+  margin: 0;
+  padding-right: 20px;
+  flex-grow: 1;
+}
+
+#acceptCookiesButton {
+  background-color: #4CAF50;
+  color: #F2F3EB;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#acceptCookiesButton:hover {
+  background-color: #45a049;
+}
+
+
+/* ABOUT US --------------------------------------------------------------- */
+#about_us {
+  margin: 0 auto;
+  min-height: calc(100vh - 86px - 132px);
+}
+
+.about-h1 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.about-h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cleaner-1-image {
+  width: 100%;
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* CLEANING SERVICES --------------------------------------------------------------- */
+.card {
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #474544;
+}
+
+.card-body {
+  padding-bottom: 10px;
+  padding-top: 12px;
+}
+
+.specialist-services-h2 {
+  padding-top: 25px;
+}
+
+h4 i {
+  padding-left: 15px;
+  font-size: 22px;
+}
+
+.list-group-item {
+  color: #474544;
+}
+
+.contact-us-link {
+  padding-top: 20px;
+}
+
+.contact-us-link {
+  padding-bottom: 12px;
+}
+
+.cleaning-services-h1 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.card-h4 {
+  margin-bottom: 0px;
+  padding-bottom: 12px;
+}
+
+/* OUR PROMISE --------------------------------------------------------------- */
+.cleaner-image {
+  border-radius: 50%;
+}
+
+.fa-shield-alt:before {
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.fa-phone-square-alt:before {
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.fa-smile-beam:before {
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.fa-gem:before {
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.fa-question-circle:before {
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.fa-credit-card:before {
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.always-here-h3, .always-here-p {
+  margin-right: 3px;
+}
+
+.happy-with-cleaner-h3, .happy-with-cleaner-p {
+  margin-right: 3px;
+}
+
+.quality-guarantee-h3 {
+  padding-top: 40px;
+}
+
+.security-p {
+  margin-right: 3px;
+}
+
+.quality-guarantee-h3, .quality-guarantee-p {
+  margin-left: 3px;
+}
+
+.do-a-good-job-h3, .do-a-good-job-p {
+  margin-left: 3px;
+}
+
+.easy-payments-h3, .easy-payments-p {
+  margin-left: 3px; 
+}
+
+/* FAQ --------------------------------------------------------------- */
+.faq-h1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-link {
+  width: 100%;
+  text-align: left;
+}
+
+.btn-link:after {
+  content: '\2212';
+  text-align: center;
+  position: absolute;
+  top: 17px;
+  right: 25px;
+  font-size: 20px;
+}
+
+.btn-link.collapsed::after {
+  content: '\002B';
+  font-size: 24px;
+}
+
+.card-header {
+  background-color: #474544;
+  border: 1px solid #474544
+}
+
+.card-body {
+  border: 1px solid #474544
+}
+
+.card {
+  padding-bottom: 1px;
+}
+
+#headingOne {
+  background-color: #474544;
+}
+
+#headingTwo {
+  background-color: #474544;
+}
+
+#headingThree {
+  background-color: #474544;
+}
+
+#headingFour {
+  background-color: #474544;
+}
+
+#headingFive {
+  background-color: #474544;
+}
+
+#headingSix {
+  background-color: #474544;
+}
+
+#headingSeven {
+  background-color: #474544;
+}
+
+#headingEight {
+  background-color: #474544;
+}
+
+.faq_question_font {
+  color: #F2F3EB !important;
+}
+
+/* CONTACT US --------------------------------------------------------------- */
+.form-group {
+  margin-bottom: 0px;
+  padding: 0px;
+  margin: auto;
+  width: 80%;
+}
+
+.radios {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.submit {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.click-to-contact-us {
+  padding-bottom: 0px;
+}
+
+.google-map {
+  min-width: 100%;
+  height: 500px;
+}
+/* MESSAGE RECEIVED PAGE --------------------------------------------------------------- */
+.alert-success {
+  border: none;
+  margin-top: 10rem;
+}
+
+.fa-check-square:before {
+  font-size: 36px;
+  padding-left: 20px;
+}
+
+/* #confirmation-page {
+  height: 73vh;
+} */
+
+.confirmation-main {
+  background-color: #F2F3EB;
+}
+
+.confirmation-p-1 {
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.confirmation-p-2 {
+  font-size: 20px;
+}
+
+
+
+
+.card-deck {
+  margin: 0 -15px;
+  justify-content: space-around;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+}
+
+.card-deck .card {
+  /* margin: 0 0 1rem; */
+  margin: 5px;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .card-deck .card {
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+  }
+}
+
+#about_us {
+  margin: 0 auto;
+  min-height: calc(100vh - 86px - 132px);
+}
+
+footer {
+  text-align: center;
+  background-color: #474544;
+  color: #F2F3EB;
+  padding: 20px;
+}
+
+#our-promise {
+  margin: 0 auto;
+  min-height: calc(100vh - 86px - 132px);
+}
+
+#index_page {
+  margin: 0 auto;
+  min-height: calc(100vh - 86px - 132px);
+}
+
+#confirmation-page {
+  margin: 0 auto;
+  min-height: calc(100vh - 86px - 132px);
+}
